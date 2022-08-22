@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)file:///H:/html%20and%20css/html%20code/Practice%20with%20Junker/idex.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Development Practice</title>
+
+    <style>
+        article{
+            border: 2px solid tomato;
+            border-radius: 20px;
+            margin: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body style="background-color: tomato;">
+   <section>
+    <article>
+        <h3>article-1</h3>
+        <p class="author" style="background-color: yellow; color: red; font-size: 30px;">author-1</p>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda expedita facere reprehenderit iusto, possimus dolorum repudiandae ipsum doloribus autem, adipisci nemo magni. Nihil ducimus odit temporibus expedita ex recusandae!</p>
+    </article>
+    <article class="special">
+        <h3>article-2</h3>
+        <p class="author" style="background-color: yellow; color: red; font-size: 30px;">author-2</p>
+        <p class="description">Magnam odio harum aperiam et quia. Architecto est officia rerum suscipit molestias, dolores dolore unde perferendis incidunt qui quas deserunt ducimus eos illo eum voluptate nostrum reprehenderit. Ad, amet cupiditate.</p>
+    </article>
+    <article class="special">
+        <h3>article-3</h3>
+        <p class="author" style="background-color: yellow; color: red; font-size: 30px;">author-3</p>
+        <p class="description">Porro vel sunt excepturi debitis omnis, est suscipit eveniet deleniti similique sapiente blanditiis laboriosam maiores cum? Debitis delectus fugiat deserunt et, repellat, modi tempore id blanditiis magnam, quibusdam eaque aliquid.</p>
+    </article>
+   </section>
+
+   
+
+
+   <script>
+    document.body.style.backgroundColor = 'tomato';
+    var author = document.getElementsByClassName('author');
+    for(var i = 0; i < author.length; i++){
+        element = author[i];
+        console.log(element.innerHTML);
+        //element.innerHTML = 'Lekhok-'+ (i + 1);
+        element.style.backgroundColor = 'yellow';
+        element.style.color = 'red';
+        element.style.fontSize = '30px';
+    }
+   </script>
+
+</body></html>

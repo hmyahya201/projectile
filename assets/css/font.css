@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Author-600;
+    src: url(../fonts/Autor-Bold.ttf);
+  }
+  @font-face {
+    font-family: EudoxusSans-800;
+    src: url(../fonts/EudoxusSans-ExtraBold.ttf);
+  }
+
+  @font-face {
+    font-family: EudoxusSans-700;
+    src: url(../fonts/EudoxusSans-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: EudoxusSans-400;
+    src: url(../fonts/EudoxusSans-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: EudoxusSans-500;
+    src: url(../fonts/EudoxusSans-Medium.ttf);
+  }
